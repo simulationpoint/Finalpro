@@ -17,7 +17,7 @@ MIN = 0
 # Inspired by WernerOrdonez2@github
 HOWMANYBYTES_V = VERTICES.nbytes
 HOWMANYBYTES_I = INDICES.nbytes
-with open("westworld.gltf", 'r') as f:
+with open("matrix.gltf", 'r') as f:
    lines = f.readlines()
 
    for i,l in enumerate(lines):
